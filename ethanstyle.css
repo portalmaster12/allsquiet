@@ -2,9 +2,6 @@ body {
   background-image: url("images/Parchment.jpg");
       background-repeat:no-repeat;
      background-size:cover;
-     padding-left: 125px;
-     padding-reight: 125px
-
 }
 
 p {
@@ -13,7 +10,22 @@ p {
 }
 
 h1 {
-    text-align: center;
+   padding-left: 125px;
+   text-align: center;
+    color: black;
+    mix-blend-mode: difference;
+}
+
+h2 {
+   padding-left: 125px;
+   text-align: center;
+    color: black;
+    mix-blend-mode: difference;
+}
+
+.inline {
+   padding-left: 125px;
+   padding-left: 125px;
     color: black;
     mix-blend-mode: difference;
 }
