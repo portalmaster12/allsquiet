@@ -1,14 +1,19 @@
 body {
-    background-color: black;
+  background-image: url("images/parchment_backround.jpg");
+      background-repeat:no-repeat;
+     background-size:cover;
+
 }
 
 p {
-  color:white;
+  color:black;
+  mix-blend-mode: difference;
 }
 
 h1 {
-    color: white;
+    color: black;
     margin-left: 20px;
+    mix-blend-mode: difference;
 }
 
 img {
