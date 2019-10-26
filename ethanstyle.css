@@ -1,7 +1,9 @@
 body {
-  background-image: url("images/parchment_backround.jpg");
+  background-image: url("images/Parchment.jpg");
       background-repeat:no-repeat;
      background-size:cover;
+     padding-left: 125px;
+     padding-reight: 125px
 
 }
 
@@ -11,11 +13,38 @@ p {
 }
 
 h1 {
+    text-align: center;
     color: black;
-    margin-left: 20px;
     mix-blend-mode: difference;
 }
 
+table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width:70%;
+  margin-left:15%;
+   margin-right:15%;
+}
+
+td {
+  width: auto;
+  height: 300px;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.crop {
+  object-fit: cover;
+}
+
+iframe{
+  width: 300px;
+}
+
 img {
-  width: 200px;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
 }
