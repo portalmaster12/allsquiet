@@ -10,7 +10,6 @@ p {
 }
 
 h1 {
-   padding-left: 125px;
    text-align: center;
     color: black;
     mix-blend-mode: difference;
@@ -18,14 +17,14 @@ h1 {
 
 h2 {
    padding-left: 125px;
-   text-align: center;
+   text-align: left;
     color: black;
     mix-blend-mode: difference;
 }
 
 .inline {
    padding-left: 125px;
-   padding-left: 125px;
+   padding-right: 125px;
     color: black;
     mix-blend-mode: difference;
 }
